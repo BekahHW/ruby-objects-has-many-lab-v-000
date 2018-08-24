@@ -14,7 +14,7 @@ require 'pry'
   end
   
   def songs
-   binding.pry
+  # binding.pry
     Song.all.select {|song| song.artist == self}
      
   end
