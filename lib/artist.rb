@@ -1,4 +1,5 @@
-class Artist
+require 'pry'
+ Artist
   attr_accessor :name  
   
   @@all = []
